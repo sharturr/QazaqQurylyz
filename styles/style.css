@@ -155,6 +155,17 @@ body{
 	align-items: flex-start;
 	margin-bottom: 1.6rem;
 }
+.whywe__body:after {
+	display: block;
+	
+	content: "";
+	height: 1.5px;
+	width: 100%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	position: relative;
+	background-color:rgba(0,0,0, 0.1);
+}
 .whywe__item {
 	flex: 0 1 33.333%;
 	text-align: center;
@@ -166,16 +177,6 @@ body{
 }
 .whywe__num-text {
 	font-size: 0.875rem;
-}
-.whywe__list:before {
-	display: block;
-	content: "";
-	height: 1.5px;
-	width: 100%;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	position: relative;
-	background-color:rgba(0,0,0, 0.1);
 }
 .whywe__list-text:not(:last-child) {
 	margin-bottom: 0.625rem;
